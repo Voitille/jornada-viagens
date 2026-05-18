@@ -1,5 +1,6 @@
 header{
     background-color: var(--background-tertiary-color);
+    justify-content: space-between;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -11,12 +12,17 @@ header{
     width: 68px;
     height: 64px;
     display: inline-block;
+    margin: 37px o o 48px;
 }
 
 .navigation-menu{
     margin-top: 24px;
 }
 
+input[type="checkbox"]: cheched ~ nav{
+    display: block;
+}
+
 nav{
     display: none;
-}
+}   
