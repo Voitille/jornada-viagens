@@ -19,7 +19,7 @@ header{
     margin-top: 24px;
 }
 
-input[type="checkbox"]: cheched ~ nav{
+input[type="checkbox"]:checked ~ nav{
     display: block;
 }
 
