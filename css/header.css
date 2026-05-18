@@ -1,8 +1,9 @@
 header{
-    width: 100%;
-    height: 138px;
     background-color: var(--background-tertiary-color);
     justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
     align-items: flex-start;
     padding: 38px 48px;
 }
