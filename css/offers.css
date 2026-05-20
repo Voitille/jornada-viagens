@@ -67,11 +67,13 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+}
 
 @media screen and (min-width: 1024px){
 .card{
     width: 420px;
     height: 308px;
+}
 }
 
 @media screen and (min-width: 1440px){
