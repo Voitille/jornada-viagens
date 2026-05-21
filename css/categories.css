@@ -55,9 +55,11 @@
     .categories-cards .card{
         width: 430px;
 }
+}
 
 @media screen and (min-width: 1440px){
     .categories-cards .card{
         width: 280px;
     
+}
 }
