@@ -5,6 +5,8 @@
 .categories .section-title{
     width: 312px;
     margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 .categories-cards{
@@ -46,12 +48,14 @@
 @media screen and (min-width: 768px){
     .categories .section-title{
     width: 100%;
+    padding: 0;
 }
 
     .categories-cards{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+        margin-top: 32px;
     }
 }
 

@@ -11,7 +11,6 @@
 
 .offers-cards .card{
     color: var(--text-secondary-color);
-    background-color: black;
     width: 312px;
     height: 288px;
     padding: 24px 16px;
@@ -66,6 +65,9 @@
 }
 
 @media screen and (min-width: 768px){
+    .offers{
+    margin-bottom: 88px;
+}
     .offers-cards{
     flex-direction: row;
     flex-wrap: wrap;
