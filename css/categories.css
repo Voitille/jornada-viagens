@@ -18,12 +18,6 @@
     border-radius: 8px;
 }
 
-
-.categories-cards .card h3{
-    font-size: 28px;
-    font-weight: var(--title-weight);
-}
-
 /*trick */
 .categories-cards .card.single-line{
     padding-top: 50px;
