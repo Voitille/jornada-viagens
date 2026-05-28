@@ -9,7 +9,7 @@
 .hero h2{
     width: 100%;
     height: auto;
-    padding: 88px 24px 0 24px;
+    padding: 88px 24px 88px 24px;
     margin: 0px;
     font-weight: var(--text-weight);
     font-size: 20px;
