@@ -8,7 +8,6 @@
 .destinations .item .img-item{
     width: 100%;
     height: 368px;
-
 }
 
 .destinations .item.tokyo .img-item{
@@ -28,7 +27,9 @@
 .destinations .item p{
     margin-bottom: 24px;
 }
-
+.destinations .item footer {
+    margin-top: auto;
+}
 .destinations .button{
     width: 100%;
 }
@@ -51,9 +52,8 @@
         background-image: url('../img/osaka-tablet-desk.png');
         background-size: cover;
 }
-
-.destinations .button{
-    width: 280px;
+.destinations .destionations-items .content-text{
+    line-height: 32px;
 }
 }
 
@@ -71,8 +71,19 @@
 @media screen and (min-width: 1440px){
     .destinations{
         width: 1200px;
-    }
+    }    
     .destinations-items{
         flex-direction: row;
+        align-items: stretch;
+    }
+    .destinations .item .img-item{
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .destinations .destionations-items .content-text{
+        width: 540px;
+        min-height: 128px;
+        text-align: center;
+        line-height: 32px
     }
 }
