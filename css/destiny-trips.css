@@ -1,0 +1,39 @@
+.trip-destinations .trip-items .img-item{
+    width: 100%;
+    height: 280px;
+}
+.trip-destinations .trip-items .item.tokyo{
+    margin-bottom: 40px;
+}
+.trip-destinations .trip-items .item.tokyo .img-item{
+    background: url(../img/destiny-img/destiny-tokyo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.trip-destinations .trip-items .item.osaka .img-item{
+    background: url(../img/destiny-img/destiny-osaka.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.trip-destinations .trip-items .content-title{
+    margin: 24px 0 24px;
+}
+.trip-destinations .trip-items .content-text{
+    margin-bottom:24px;
+}
+.trip-destinations .trip-items footer .button{
+    min-width: 312px;
+    height: 64px;
+    color: var(--text-secondary-color);
+    font-weight: var(--title-weight);
+    font-size: 20px;
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 64px;
+    text-align: center
+}
