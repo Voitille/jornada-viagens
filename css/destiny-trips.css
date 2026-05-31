@@ -1,0 +1,8 @@
+.trip-destinations .trip-items .item.tokyo .img-item{
+    width: 100%;
+    height: 280px;
+    background: url(../img/destiny-img/destiny-tokyo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
