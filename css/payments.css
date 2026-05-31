@@ -1,4 +1,3 @@
-
 .payments .image-gallery{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -7,7 +6,6 @@
     margin-top: 24px;
     width: 100%;
 }
-
 .payments .content-container .image-gallery .image {
     background-size: cover;
     background-position: center;
