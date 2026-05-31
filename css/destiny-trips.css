@@ -37,3 +37,40 @@
     line-height: 64px;
     text-align: center
 }
+
+@media screen and (min-width: 768px){
+.trip-destinations{
+    margin-bottom: 88px;
+}
+}
+
+@media screen and (min-width: 1024px){
+.trip-destinations .trip-items{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 588px;
+    height: 750px;
+}
+}
+
+@media screen and (min-width: 1440px){
+.card{
+    width: 588px;
+}
+
+@media screen and (min-width: 1920px){
+.offers-cards{
+    width: 1250x;
+    margin: 0 auto;
+}
+}
+
+.card header h3{
+    font-size: 48px;
+}
+
+.card header span{
+    font-size: 40px;
+}
+}
