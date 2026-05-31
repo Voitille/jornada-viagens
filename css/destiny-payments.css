@@ -1,0 +1,45 @@
+.destiny-payments .content-container .content-text{
+    margin-bottom:24px;
+}
+.destiny-payments h1.content-title{
+    font-size: 40px;
+    line-height: 100%;
+}
+.destiny-payments .content-container footer .button{
+    min-width: 312px;
+    height: 64px;
+    color: var(--text-secondary-color);
+    font-weight: var(--title-weight);
+    font-size: 20px;
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 64px;
+    text-align: center
+}
+.destiny-payments .image-destiny-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 460px;
+    gap: 24px;
+    margin-top: 24px;
+    width: 100%;
+}
+.destiny-payments .content-container .image-destiny-gallery .image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.destiny-payments .content-container .image-destiny-gallery .image.first {
+    background-image: url(../img/destiny-img/destiny-japao-1.png);
+}
+.destiny-payments .content-container .image-destiny-gallery .image.second {
+    background-image: url(../img/destiny-img/destiny-japao-2.png);
+}
+.destiny-payments .content-container .image-destiny-gallery .image.third {
+    background-image: url(../img/destiny-img/destiny-japao-3.png);
+}
+.destiny-payments .content-container .image-destiny-gallery .image.third.colspan-2{
+    grid-column: span 2;
+}
