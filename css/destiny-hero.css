@@ -1,8 +1,17 @@
 /* CSS RESET */
+section.bottom-destiny-hero{
+    width: 100%;
+    margin: 0;
+}
 .destiny-hero{
     height: 460px;
     width: 100%;
     margin: 0 0 88px;
+}
+.bottom-destiny-hero{
+    width: 100%;
+    height: 460px;
+    margin: 0;
 }
 .destiny-hero .destiny-text-content{
     height: 100%;
@@ -37,5 +46,12 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
+}
+.bottom-destiny-hero .hero-img{
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/destiny-img/bottom-destiny-hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
