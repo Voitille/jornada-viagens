@@ -55,6 +55,12 @@ nav{
     font-size: 24px;
 }
 
+.navigation-menu .current-page{
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 2px;
+}
+
 @media screen and (min-width: 768px){
     .main-header{
         padding: 38px 60px;
@@ -84,11 +90,6 @@ nav{
         margin: 0;
     }
 
-    .navigation-menu .current-page{
-        text-decoration: underline;
-        text-underline-offset: 6px;
-        text-decoration-thickness: 2px;
-    }
 }
 
 @media screen and (min-width: 1024px){
