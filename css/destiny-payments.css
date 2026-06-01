@@ -1,10 +1,12 @@
 .destiny-payments .content-container .content-text{
-    margin-bottom:24px;
+    margin-bottom: 24px;
 }
+
 .destiny-payments h1.content-title{
     font-size: 40px;
     line-height: 100%;
 }
+
 .destiny-payments .content-container footer .button{
     min-width: 312px;
     height: 64px;
@@ -16,30 +18,84 @@
     display: inline-block;
     text-decoration: none;
     line-height: 64px;
-    text-align: center
+    text-align: center;
 }
+
 .destiny-payments .image-destiny-gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 254px 182px;
     height: 460px;
     gap: 24px;
     margin-top: 24px;
     width: 100%;
 }
+
 .destiny-payments .content-container .image-destiny-gallery .image {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .destiny-payments .content-container .image-destiny-gallery .image.first {
     background-image: url(../img/destiny-img/destiny-japao-1.png);
 }
+
 .destiny-payments .content-container .image-destiny-gallery .image.second {
     background-image: url(../img/destiny-img/destiny-japao-2.png);
 }
+
 .destiny-payments .content-container .image-destiny-gallery .image.third {
     background-image: url(../img/destiny-img/destiny-japao-3.png);
 }
+
 .destiny-payments .content-container .image-destiny-gallery .image.third.colspan-2{
     grid-column: span 2;
+}
+
+@media screen and (min-width: 768px){
+    .destiny-payments .content-container footer .button{
+        min-width: 280px;
+    }
+
+    .destiny-payments .content-container .image-destiny-gallery .image.first {
+        background-image: url(../img/destiny-img/destiny-japao-1-tablet.png);
+    }
+
+    .destiny-payments .content-container .image-destiny-gallery .image.second {
+        background-image: url(../img/destiny-img/destiny-japao-2-tablet.png);
+    }
+
+    .destiny-payments .content-container .image-destiny-gallery .image.third {
+        background-image: url(../img/destiny-img/destiny-japao-3-tablet.png);
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .destiny-payments .content-container{
+        display: flex;
+        gap: 24px;
+        align-items: flex-start;
+    }
+
+    .destiny-payments .content-container .text-content{
+        width: 384px;
+    }
+
+    .destiny-payments .image-destiny-gallery{
+        width: 792px;
+        margin-top: 0;
+    }
+
+    .destiny-payments .content-container .image-destiny-gallery .image.first {
+        background-image: url(../img/destiny-img/destiny-japao-1-desktop.png);
+    }
+
+    .destiny-payments .content-container .image-destiny-gallery .image.second {
+        background-image: url(../img/destiny-img/destiny-japao-2-desktop.png);
+    }
+
+    .destiny-payments .content-container .image-destiny-gallery .image.third {
+        background-image: url(../img/destiny-img/destiny-japao-3-desktop.png);
+    }
 }

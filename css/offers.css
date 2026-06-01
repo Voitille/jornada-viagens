@@ -68,29 +68,28 @@
 }
 
 @media screen and (min-width: 1024px){
-.card{
+.offers-cards .card{
     width: 420px;
     height: 308px;
 }
 }
 
 @media screen and (min-width: 1440px){
-.card{
+.offers-cards .card{
     width: 588px;
+}
+.offers-cards .card header h3{
+    font-size: 48px;
+}
+
+.offers-cards .card header span{
+    font-size: 40px;
+}
 }
 
 @media screen and (min-width: 1920px){
 .offers-cards{
-    width: 1250x;
+    width: 1250px;
     margin: 0 auto;
-}
-}
-
-.card header h3{
-    font-size: 48px;
-}
-
-.card header span{
-    font-size: 40px;
 }
 }

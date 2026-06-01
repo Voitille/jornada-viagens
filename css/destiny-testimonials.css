@@ -1,3 +1,47 @@
 .destiny-testimonials .section-title h2{
     font-size: 32px;
 }
+
+.destiny-testimonials .testimonials-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.destiny-testimonials article p{
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0 0 24px;
+}
+
+.destiny-testimonials article footer{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.destiny-testimonials article footer img{
+    width: 86px;
+    height: 86px;
+}
+
+.destiny-testimonials article footer h3{
+    font-size: 20px;
+    font-weight: var(--title-weight);
+    margin: 0 0 8px;
+}
+
+.destiny-testimonials .star{
+    color: var(--secondary-color);
+}
+
+@media screen and (min-width: 1440px){
+    .destiny-testimonials .testimonials-container{
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .destiny-testimonials article{
+        width: calc(33.333% - 16px);
+    }
+}
